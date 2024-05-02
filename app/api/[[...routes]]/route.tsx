@@ -31,7 +31,7 @@ app.frame("/picker", (c) => {
         image: `${process.env.NEXT_PUBLIC_SITE_URL}/meme/a`,
         intents: [
           <TextInput placeholder="Text" />,
-          <Button value="generate">Generate</Button>,
+          <Button value="generate">생성</Button>,
         ],
       });
     }
